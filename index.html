@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Society Week</title>
+<meta name="description" content="Browse and apply to college societies during recruitment week.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2712%27 fill=%27%232447F9%27/%3E%3Ctext x=%2732%27 y=%2744%27 font-size=%2736%27 font-family=%27sans-serif%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3ES%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a href="#/" class="brand">Society Week</a>
+  <nav>
+    <a href="#/quiz" class="nav-link">Find my society</a>
+    <a href="#/me" class="nav-link">Your list <span id="me-count" class="pill"></span></a>
+    <button id="theme" class="icon-btn" type="button" aria-label="Toggle dark mode">◐</button>
+  </nav>
+</header>
+
+<main id="app" aria-live="polite"></main>
+
+<footer class="foot">Recruitment week runs 21 September to 5 October. Applications close at midnight on each society's deadline.</footer>
+
+<div id="toast" class="toast" role="status" hidden></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
